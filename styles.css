@@ -1,16 +1,49 @@
 body {
     background: dimgrey;
     color:floralwhite;
- }
-body {
-    background: dimgrey;
-    color:floralwhite;
     margin: 0px;
+    font-family: "PT Serif", serif;
  }
 
- hearder {
+ hearder { 
     border-bottom: solid 1px rgb(170, 170, 170);
     padding: 20px;
     font-size: 38px;
+    color: rgb(170, 170, 170);
  }
+
+ .chamada {
+   background: rgb(41 28 28 / 65%);
+   padding-bottom: 80px;
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .chamada-texto {
+   margin-right: 5%;
+ }
+
+ h1{
+   font-size: 30px;
+ }
+
+ p{
+   font-size: 17px;
+ }
+ img{
+   height: 200px;
+ }
+
+ .categoria-videos {
+   display: flex;
+   overflow-x: auto;
+   gap: 20px;
+ }
+
+ .categoria {
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+
 
